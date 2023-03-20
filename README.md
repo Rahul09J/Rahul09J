@@ -1,6 +1,6 @@
 ### Welcome To My Profile 👋
 
-- 🔭 I’m currently working on ...
+- 🔭 I’m currently working on Ai Project
 - 🌱 I’m currently learning ... C++ DSA
 - 👯 I’m looking to collaborate on ... Any Web Development Project
 - 🤔 I’m looking for help with ...DSA
