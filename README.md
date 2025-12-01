@@ -1,10 +1,8 @@
 ### Welcome To My Profile 👋
 
-- 🔭 I’m currently working on Ai Project
-- 🌱 I’m currently learning ... Java , DSA , MERN
-- 👯 I’m looking to collaborate on ... Any Web Development Project
-- 🤔 I’m looking for help with ... DSA
-- 💬 Ask me about ... Coding,Web Development
+- 🔭 I’m currently working as a DevOps Engineer
+- 👯 I’m looking to collaborate on ... Any DevOps Project
+- 💬 Ask me about ... Coding,Deployment
 - 📫 How to reach me: ...{- irahuljasoria@gmail.com}
 - 😄 Pronouns: ... He/Him
 
