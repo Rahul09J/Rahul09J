@@ -1,0 +1,134 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{RAHUL JASORIA} % Your name
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{+91 6376332928 \\ irahuljasoria@gmail.com}  % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{OBJECTIVE}
+
+{DevOps Engineer with experience in Cloud Infrastructure and Automation, specializing in AWS, Terraform (IaC), Terragrunt, Kubernetes, GitLab CI/CD, and Docker to build scalable, secure, and cost-efficient solutions. Proficient in Agile methodologies, fostering collaboration and continuous delivery. Skilled in infrastructure automation, optimization, and security compliance, with a strong focus on driving innovation and implementing cost-saving strategies across cloud environments.}
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{EXPERIENCE}
+
+\begin{rSubsection}{AU Small Finance Bank}{July 2024 - Present}{GET - DevOps Engineer}{} 
+\item Automated CI/CD pipelines using GitLab and IaC (Terraform, Terragrunt, Helm) and managed Kubernetes clusters for scalable deployments.
+\item Implemented AWS security services (VPC, IAM, Secrets Manager, WAF, Shield) and applied DevSecOps practices with CloudTrail and Config.
+\item Reduced AWS cloud costs by 20\% through continuous optimization using Cost Explorer and Trusted Advisor.
+\item Migrated Kafka to Amazon MSK and managed Kafka, Zookeeper, and Logstash on Kubernetes for high availability.
+\item Managed Apigee Hybrid API Management on Kubernetes with Anthos for API traffic routing, policy enforcement,
+and analytics, integrating Apigee Data Plane with Google Cloud Control Plane to ensure high availability and
+scalability.
+\item Centralized VPC Endpoints across multiple AWS accounts by implementing a shared services VPC architecture,
+leveraging Route 53 private hosted zones and alias records to enable secure, cross-account service access and
+reduce operational overhead.
+
+\item \textbf{Key Projects:}
+\begin{itemize}
+    \item \textbf{AU ACE – Savings Account Platform:} Optimized application performance; automated MSK infrastructure; deployed Kafka/Zookeeper/Logstash with StatefulSets; implemented shared services VPC and ALB+Ingress for secure, efficient routing.
+    \item \textbf{AU0101 – AU Website \& Netbanking:} Implemented Istio service mesh; automated HA AWS infrastructure (ASG, RDS Multi-AZ, Route 53); developed reusable Terraform modules; improved observability via Elasticsearch logging.
+\end{itemize}
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{AU Small Finance Bank}{January 2024 - July 2024}{Internship - System Engineer}{}
+\item Managed and maintained on-premises Linux and Solaris servers, performing regular patching, application deployments, and system health monitoring to ensure optimal uptime.
+\item Administered and automated workflows in Ansible Tower, creating multiple projects for automated patching, application deployments, and user provisioning on Linux and database servers, and built custom Docker images to create multiple Ansible execution environments.
+\item Deployed and managed on-premise application infrastructure on Kubernetes, utilizing Helm charts for scalable and consistent deployments.
+\item \textbf{Key Projects:}
+\begin{itemize}
+    \item \textbf{AR \& Patching Automation – User Provisioning:} Automated organization-wide Linux, Solaris, and DB user creation by integrating Ansible Tower with the AR system; implemented validation checks, CIFS-based reporting, email notifications, and automatic AR ticket closure.
+    \item \textbf{Server Patching Automation:} Designed a full patching automation framework for 2000+ RHEL/OEL servers, covering pre-checks, patching, post-validation, and service restarts—achieving a zero-touch patching workflow.
+\end{itemize}
+
+
+\end{rSubsection}
+
+
+\end{rSection} 
+
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Cloud Infrastructure & AWS and OCI, \\ 
+IAAC Tool & Terraform, Terragrunt and Ansible \\  
+Containerization and Orchestration &  Docker, Kubernetes and HELM (Kubernetes Package Manager).  \\
+Version Control Tool & Gitlab CI/CD and GIT, \\ 
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Engineering in Computer Science} \hfill {2020 - 2024}
+\\ 
+Chitkara University, Chandigarh. CGPA : 9.57/10
+
+{\textbf{AISSCE, CBSE, Class XII}}  \hfill 2018 - 2020\\
+Nosegay Public School, Sri Ganganagar, Rajasthan, 90.8\% 
+ 
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+
+
+\end{rSection} 
+\end{document}
+
+
+
+
+
+
